@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Trojan302 - Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css">
+</head>
+<body>
+
+	<header>
+		{% include nav.html navclass="nav-space-top" %}
+	</header>
+
+	<div class="content-display">
+		{{ content }}
+	</div>
+
+	<footer>
+		{% include nav.html navclass="nav-space-bottom" %}
+		<p>&copy; {{ site.time | date: '%Y' }} Trojan302 - Trian666le Illumination, Ltd.</p>
+	</footer>
+
+</body>
+</html>
