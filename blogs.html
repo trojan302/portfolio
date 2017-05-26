@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<section id="blog" class="blog-header">
+</section>
+
+<section id="blog" class="blog-section light-section dark-content">
+	<div class="container">
+
+		<div class="row">
+			{% for post in site.posts %}
+				<div class="col-sm-4 post-col">
+					<figure><img src="{{ site.baseurl }}/{{ post.image }}" alt=""></figure>
+					<h2>{{ post.title }}</h2>
+					<p>{{ post.content | truncate: 50 }}</p>
+					<a href="{{ site.baseurl }}{{ post.url }}" class="btn read-more">Read More</a>
+				</div>
+			{% endfor %}
+		</div>
+
+	</div>
+
+</section>

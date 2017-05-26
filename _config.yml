@@ -1,6 +1,5 @@
-markdown: kmarkdown
+markdown: kramdown
 baseurl: /portfolio
+url: http://127.0.0.1:4000/
 exclude: ['README.md']
-
-sass:
-    sass_dir: _sass
+permalink: /:categories/:title/
