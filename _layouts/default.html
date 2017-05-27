@@ -23,11 +23,36 @@
 		<div class="bg-overlay"></div>
 		<div class="container">
 			<div class="social-icons light-icons">
-				<a href="index.html#"><i class="fa fa-facebook"></i></a>
-				<a href="index.html#"><i class="fa fa-twitter"></i></a>
-				<a href="index.html#"><i class="fa fa-github"></i></a>
-				<a href="index.html#"><i class="fa fa-pinterest"></i></a>
-				<a href="index.html#"><i class="fa fa-google-plus"></i></a>
+				{% if site.twitter_username %}
+				    <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}">
+				      <i class="fa fa-twitter"></i>
+				    </a>
+				{% endif %}
+				{% if site.github_username %}
+				    <a target="_blank" href="https://github.com/{{ site.github_username }}">
+				      <i class="fa fa-github"></i>
+				    </a>
+				{% endif %}
+				{% if site.linkedin_username %}
+				    <a target="_blank" href="https://linkedin.com/in/{{ site.linkedin_username }}">
+				      <i class="fa fa-linkedin"></i>
+				    </a>
+				{% endif %}
+				{% if site.google_plus_username %}
+				    <a target="_blank" href="https://plus.google.com/{{ site.google_plus_username }}">
+				      <i class="fa fa-google-plus"></i>
+				    </a>
+				{% endif %}
+				{% if site.facebook_username %}
+				    <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}">
+				      <i class="fa fa-facebook"></i>
+				    </a>
+				{% endif %}
+				{% if site.dribbble_username %}
+				  <a target="_blank" href="https://dribbble.com/{{ site.dribbble_username }}" class="icon">
+				      <i class="fa fa-dribbble"></i>
+				    </a>
+				{% endif %}
 			</div>
 			<p>&copy; {{ site.time | date: '%Y' }} Trojan302 - Trian666le Illumination, Ltd.</p>
 		</div>
