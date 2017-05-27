@@ -1,9 +1,11 @@
 ---
-layout: post
 title: Jekyll is Awesome Static Website
+date: 2017-05-02 00:00:00 Z
+categories:
+- topics
+layout: post
 meta: How jekyll work?
 image: assets/portfolio/jekyll.png
-category: topics
 ---
 
 # [Jekyll](https://jekyllrb.com/)

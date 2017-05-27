@@ -1,15 +1,24 @@
+---
+title: Portfolio
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 markdown: kramdown
-baseurl: /portfolio
+baseurl: "/portfolio"
 url: https://trojan302.github.io/portfolio
-exclude: ['README.md']
-permalink: /:categories/:title/
-
+exclude:
+- README.md
+permalink: "/:categories/:title/"
 google-analytics:
-  id: "UA-100001464-1"
-
-twitter_username      :     
-github_username       : trojan302
-linkedin_username     :   
-google_plus_username  : "105512857669567156066"
-facebook_username     : devil.rose.666
-dribbble_username     :
+  id: UA-100001464-1
+twitter_username: 
+github_username: trojan302
+linkedin_username: 
+google_plus_username: '105512857669567156066'
+facebook_username: devil.rose.666
+dribbble_username: 
