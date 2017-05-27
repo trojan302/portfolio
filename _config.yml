@@ -1,6 +1,6 @@
 markdown: kramdown
 baseurl: /portfolio
-url: https://trojan302.github.io
+url: https://trojan302.github.io/portfolio
 exclude: ['README.md']
 permalink: /:categories/:title/
 
