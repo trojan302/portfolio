@@ -2,7 +2,7 @@
 layout: post
 title: Jekyll is Awesome Static Website
 meta: How jekyll work?
-image: assets/portfolio/none.jpg
+image: assets/portfolio/jekyll.png
 category: topics
 ---
 
