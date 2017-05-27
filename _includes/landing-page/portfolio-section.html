@@ -16,18 +16,18 @@
 				<li class="filter btn btn-medium btn-darkblue btn-outline" data-id="add-ons">Add-Ons</li>
 			</ul>
 
-			<a href="index.html#" class="more-work btn btn-medium btn-darkblue btn-outline">All my work</a>
+			<a href="portfolio" class="more-work btn btn-medium btn-darkblue btn-outline">All my work</a>
 		</div>
 
 
 		<div class="main">
 			<ul id="og-grid" class="og-grid">
-				<li class="portfolio-item visible-item" data-id="add-ons graphics">
-					<a href="http://crtv.mk/sXBR" data-largesrc="assets/work1-big.jpg" data-category="Add-Ons Graphics" data-date="Apr 10th, 2014" data-title="Azuki bean" data-description="This is a pack of 10 Vintage text styles. You can use all these styles in web design or web apps but I've made them in 2 different sizes, so you can use those vintage text styles even on print materials. With this Vintage Text Styles pack you can design a logo, a title or any text in web or print materials.">
-						<img src="assets/work1-big.jpg" alt="Breath - Vintage Text Styles"/>
+				<li class="port-item visible-item" data-id="{{add-ons graphics}}">
+					<a href="{{ port.url }}" data-largesrc="assets/work1-big.jpg" data-category="{{port.data-category}}" data-date="{{port.data-date}}" data-title={{port.data-title}}"data-description="{{ port.data-meta }}">
+						<img src="{{ site.baseurl }}/{{port.image_path}}" alt="{{port.data-title}}"/>
 						<div class="overlay-content">
-							<h4>Breath - Vintage Text Styles</h4>
-							<p>This is a pack of 10 Vintage text styles. You can use all these styles in web design or web apps but I've made them in 2 different sizes, so you can use those...</p>
+							<h4>{{port.data-title}}</h4>
+							<p>{{port.data-meta}}</p>
 						</div>
 					</a>
 				</li><li class="portfolio-item visible-item" data-id="graphics">
