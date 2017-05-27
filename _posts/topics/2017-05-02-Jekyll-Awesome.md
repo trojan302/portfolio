@@ -8,8 +8,6 @@ category: topics
 
 # [Jekyll](https://jekyllrb.com/)
 
-![Sizhe](../../assets/portfolio/jekyll.png)
-
 Jekyll is a simple, blog-aware, static site generator perfect for personal, project, or organization sites. Think of it like a file-based CMS, without all the complexity. Jekyll takes your content, renders Markdown and Liquid templates, and spits out a complete, static website ready to be served by Apache, Nginx or another web server. Jekyll is the engine behind [GitHub Pages](https://pages.github.com), which you can use to host sites right from your GitHub repositories.
 
 ## Philosophy
@@ -51,3 +49,5 @@ these terms, please let a maintainer ([@parkr](https://github.com/parkr), [@envy
 ## License
 
 See the [LICENSE](https://github.com/jekyll/jekyll/blob/master/LICENSE) file.
+
+![jekyll](../../assets/portfolio/jekyll.png)
