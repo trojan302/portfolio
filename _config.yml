@@ -4,6 +4,5 @@ url: https://trojan302.github.io/portfolio
 exclude: ['README.md']
 permalink: /:categories/:title/
 
-colletions:
-  portfolios:
-    output: true
+google-analytics:
+  id: "UA-100001464-1"
