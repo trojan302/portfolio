@@ -1,6 +1,17 @@
 ---
 title: Portfolio
 timezone: UTC
+collections:
+  portfolios:
+    title: Portfolios
+    output: true
+    permalink: "/:categories/:title/"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 markdown: kramdown
 baseurl: "/portfolio"
 url: https://trojan302.github.io/portfolio
@@ -14,9 +25,4 @@ github_username: trojan302
 linkedin_username: 
 google_plus_username: '105512857669567156066'
 facebook_username: devil.rose.666
-dribbble_username:
-
-collections:
-  portfolios:
-    output: true
-    permalink: "/:categories/:title/"
+dribbble_username: 
