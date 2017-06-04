@@ -1,7 +1,7 @@
 ---
 title: Demo Version Of Investor Ready Site
 date: {}
-published: false
+published: true
 categories:
   - work
 layout: post
